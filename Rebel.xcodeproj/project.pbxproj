@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		047906541638056800C3981F /* NSWindow+RBLKeyWindowAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 047906521638056800C3981F /* NSWindow+RBLKeyWindowAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		047906551638056800C3981F /* NSWindow+RBLKeyWindowAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 047906531638056800C3981F /* NSWindow+RBLKeyWindowAdditions.m */; };
 		301569981602161400E3BE46 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 306A81EC1601F44200BF45F3 /* QuartzCore.framework */; };
 		304692F21607259A00B79746 /* EXTKeyPathCoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 304692F11607259A00B79746 /* EXTKeyPathCoding.h */; };
 		306A81DB1601C7A300BF45F3 /* RBLPopover.h in Headers */ = {isa = PBXBuildFile; fileRef = 306A81D91601C7A300BF45F3 /* RBLPopover.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -126,6 +128,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		047906521638056800C3981F /* NSWindow+RBLKeyWindowAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSWindow+RBLKeyWindowAdditions.h"; sourceTree = "<group>"; };
+		047906531638056800C3981F /* NSWindow+RBLKeyWindowAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSWindow+RBLKeyWindowAdditions.m"; sourceTree = "<group>"; };
 		304692F11607259A00B79746 /* EXTKeyPathCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EXTKeyPathCoding.h; path = extobjc/EXTKeyPathCoding.h; sourceTree = "<group>"; };
 		306A81D91601C7A300BF45F3 /* RBLPopover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBLPopover.h; sourceTree = "<group>"; };
 		306A81DA1601C7A300BF45F3 /* RBLPopover.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBLPopover.m; sourceTree = "<group>"; };
@@ -274,6 +278,8 @@
 				D04CBFC715F6D87B004A5BCC /* NSView+RBLAnimationAdditions.m */,
 				306A81E61601E92000BF45F3 /* CAAnimation+RBLBlockAdditions.h */,
 				306A81E71601E92000BF45F3 /* CAAnimation+RBLBlockAdditions.m */,
+				047906521638056800C3981F /* NSWindow+RBLKeyWindowAdditions.h */,
+				047906531638056800C3981F /* NSWindow+RBLKeyWindowAdditions.m */,
 			);
 			name = Extensions;
 			sourceTree = "<group>";
@@ -454,6 +460,7 @@
 				306A81DB1601C7A300BF45F3 /* RBLPopover.h in Headers */,
 				304692F21607259A00B79746 /* EXTKeyPathCoding.h in Headers */,
 				D0E91C581603CC7600D23E93 /* RBLClipView.h in Headers */,
+				047906541638056800C3981F /* NSWindow+RBLKeyWindowAdditions.h in Headers */,
 				D011FD5E16239A8600A27946 /* NSImage+RBLResizableImageAdditions.h in Headers */,
 				AB61F63616373FE000DD5D2C /* RBLTableCellView.h in Headers */,
 			);
@@ -648,6 +655,7 @@
 				D0E91C591603CC7600D23E93 /* RBLClipView.m in Sources */,
 				D011FD5F16239A8600A27946 /* NSImage+RBLResizableImageAdditions.m in Sources */,
 				AB61F63716373FE000DD5D2C /* RBLTableCellView.m in Sources */,
+				047906551638056800C3981F /* NSWindow+RBLKeyWindowAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
