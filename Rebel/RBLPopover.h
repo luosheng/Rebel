@@ -181,3 +181,7 @@ typedef void (^RBLPopoverDelegateBlock)(RBLPopover *popover);
 @property (nonatomic, strong) NSColor *fillColor;
 
 @end
+
+@interface RBLPopoverWindow : NSWindow
+
+@end
