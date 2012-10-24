@@ -13,7 +13,7 @@
 static BOOL (*originalIsKeyWindow)(id, SEL);
 
 static BOOL rbl_isKeyWindow (NSWindow *self, SEL _cmd) {
-	__block BOOL isKey = (*originalIsKeyWindow)(self, _cmd);
+	__block BOOL isKey = originalIsKeyWindow(self, _cmd);
 	if (!isKey) {
 		[self.childWindows enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
 			if ([obj isKindOfClass:RBLPopoverWindow.class]) {
@@ -33,6 +33,5 @@ static BOOL rbl_isKeyWindow (NSWindow *self, SEL _cmd) {
 	
 	method_setImplementation(isKeyWindow, (IMP)&rbl_isKeyWindow);
 }
-
 
 @end
