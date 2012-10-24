@@ -182,6 +182,12 @@ typedef void (^RBLPopoverDelegateBlock)(RBLPopover *popover);
 
 @end
 
+// The NSWindow used as the backing window of the popover.
+//
+// This will be created as a borderless window for the popover, however
+// borderless windows do not receive mouseMoved events by default. We just
+// subclass the `NSWindow` and override its `canBecomeKey` method to make sure
+// it works with mouseMoved events.
 @interface RBLPopoverWindow : NSWindow
 
 @end
