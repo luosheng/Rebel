@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		047906541638056800C3981F /* NSWindow+RBLKeyWindowAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 047906521638056800C3981F /* NSWindow+RBLKeyWindowAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		047906551638056800C3981F /* NSWindow+RBLKeyWindowAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 047906531638056800C3981F /* NSWindow+RBLKeyWindowAdditions.m */; };
 		301569981602161400E3BE46 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 306A81EC1601F44200BF45F3 /* QuartzCore.framework */; };
 		304692F21607259A00B79746 /* EXTKeyPathCoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 304692F11607259A00B79746 /* EXTKeyPathCoding.h */; };
@@ -460,7 +459,6 @@
 				306A81DB1601C7A300BF45F3 /* RBLPopover.h in Headers */,
 				304692F21607259A00B79746 /* EXTKeyPathCoding.h in Headers */,
 				D0E91C581603CC7600D23E93 /* RBLClipView.h in Headers */,
-				047906541638056800C3981F /* NSWindow+RBLKeyWindowAdditions.h in Headers */,
 				D011FD5E16239A8600A27946 /* NSImage+RBLResizableImageAdditions.h in Headers */,
 				AB61F63616373FE000DD5D2C /* RBLTableCellView.h in Headers */,
 			);
